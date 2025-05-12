@@ -1,0 +1,122 @@
+.algo-container{
+    /* background-image: url('../assets/pexcel1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 100vh;
+    max-width: 100%;
+    margin: 2rem;
+}
+.algo-main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+.algo-main-section img{
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    box-shadow: #eee .4px .3px 5px 6px ;
+}
+.algo-main-section h1{
+    font-size: 2.4rem;
+}
+.algo-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .algo-main-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    }
+
+  .algo-intro h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  
+  .algo-explain-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .algo-explanation {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid #007acc;
+    border-radius: 6px;
+  }
+  
+  .algo-explanation h2 {
+    color: #007acc;
+  }
+  
+  pre {
+    background-color: #eee;
+    padding: 10px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+  }
+  @media (max-width: 768px) {
+  .algo-container {
+    margin: 1rem;
+    height: auto;
+    padding: 15px;
+  }
+
+  .algo-main-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .algo-main-section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .algo-main-section h1,
+  .algo-intro h1 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  .algo-explain-container {
+    gap: 20px;
+  }
+
+  .algo-explanation {
+    padding: 15px;
+  }
+
+  pre {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+@media (max-width: 480px) {
+    .algo-main-section h1,
+    .algo-intro h1 {
+      font-size: 1.2rem;
+    }
+  
+    .algo-explanation h2 {
+      font-size: 1rem;
+    }
+  
+    pre {
+      font-size: 12px;
+    }
+  }
+  

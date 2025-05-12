@@ -1,0 +1,57 @@
+/* 
+  :root {
+    font-size: calc(24px + (36 - 24) * (100vw - 320px) / (1280 - 320));
+  }
+  body {
+    background: #0b46da;
+    color: #ffffff;
+    display: flex;
+    font: bold 1em/1.5 "DM Mono", monospace;
+    height: 100vh;
+    text-transform: uppercase;
+  }
+  
+  .bottle {
+
+    margin: 3rem;
+    perspective: 25em;
+    position: relative;
+    width: 11em;
+    height: 11em;
+  }
+  
+  .bottle__sides,
+  .bottle__side {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform-style: preserve-3d;
+  }
+  
+  .bottle__sides {
+    animation: spin 1s linear infinite;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotateZ(90deg) rotateX(-90deg);
+  }
+  
+  .bottle__side {
+    display: flex;
+  }
+  
+  .bottle__side span {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    display: inline-block;
+    width: 1ch;
+  }
+  @keyframes spin {
+    from {
+      transform: rotateZ(90deg) rotateX(-90deg);
+    }
+    to {
+      transform: rotateZ(90deg) rotateX(270deg); /* -90 + 360 */
+    }
+  }
+   */

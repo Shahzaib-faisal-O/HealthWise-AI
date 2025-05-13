@@ -5,6 +5,7 @@ import Form from './pages/Form'
 import Nav from './components/Nav'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Algorithm from './pages/Algorithm'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
 <Route path="/algorithm" element={<Algorithm />} />
 <Route path="/form" element={<Form />} />
 </Routes>
-{/* footer */}
+<Footer/>
    </BrowserRouter>
    </>
   )

@@ -18,7 +18,9 @@ nav {
     display: flex;
     align-items: center;
   }
-  
+  .logo {
+    font-size: 2.2rem;
+  }
   nav ul li a {
     text-decoration: none;
   }
@@ -55,7 +57,9 @@ nav {
     #menu-toggle:checked ~ .nav-links {
       display: flex;
     }
-  
+    .logo {
+      font-size: 1.6rem;
+    }
     .nav-links li {
       padding: 1rem;
       text-align: center;

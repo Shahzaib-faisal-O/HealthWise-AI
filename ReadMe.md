@@ -71,5 +71,5 @@ http://<your-PC-LAN-IP>:5173
 3. Models are trained on synthetic data simulating real-world medical cases.
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/HealthWise-AI.git
+git clone https://github.com/Shahzaib-faisal-O/HealthWise-AI.git
 cd HealthWise-AI

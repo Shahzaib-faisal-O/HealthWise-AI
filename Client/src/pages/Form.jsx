@@ -16,7 +16,7 @@ function Form() {
     history: [],
     symptoms: []
   });
-  const API_URL = 'http://192.168.2.104:5000/predict';
+  const API_URL = 'http://192.168.2.107:5000/predict';
   const [prediction, setPrediction] = useState('');
   const [recommendation, setRecommendation] = useState('');
 

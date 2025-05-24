@@ -5,6 +5,7 @@ const Footer = () => {
     <>
 
     <div className="footer-container">
+     
     <span>© 2025 <span className="bold">HealthWise AI</span> — https://www.health-wise-ai.vercel.app</span>
     </div>
     </>
